@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div id="hero-container">
+            <header>
+                <div id="nav">
+                        <img src="./img/logo.png" alt="logo">
+                        <nav>
+                            <ul>
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>Service</li>
+                                <li>Contact</li>
+                            </ul>
+                        </nav>
+                        <div onclick="navToggle()" class="nav-toggle-btn">
+                            <div class="bar"></div>
+                        </div>
+                </div>
+            </header>
+            <div id="hero-image">
+                <img src="./img/parallax/sky.png" alt="parallax sky" id="sky">
+                <img src="./img/parallax/mountain.png" alt="parallax mountain" id="mountain">
+                <img src="./img/parallax/person.png" alt="parallax person" id="person">
+                <img src="./img/parallax/forest1.png" alt="parallax forest" id="forest1">
+                <img src="./img/parallax/forest2.png" class="upper-image" alt="parallax forest" id="forest2">
+                <img src="./img/parallax/birds1.png" alt="parallax birds" id="birds1">
+                <img src="./img/parallax/birds2.png" alt="parallax birds" id="birds2">
+                <div id="hero-text">
+                    <p>Make your dreams real</p>
+                    <p>With Us!</p>
+                </div>
+                <img src="./img/parallax/birds3.png" alt="parallax birds" id="birds3">
+                <img src="./img/parallax/birds4.png" alt="parallax birds" id="birds4">
+                <img src="./img/parallax/birds-upper.png" class="upper-image" alt="parallax birds" id="birds-upper">
+                <img src="./img/parallax/forest-left.png" class="upper-image" alt="parallax forest" id="forest-left">
+                <img src="./img/parallax/forest-right.png" class="upper-image" alt="parallax forest" id="forest-right">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="offerts-container">
+            <h3>Our Offerts</h3>
+            <div class="offerts">
+                    <div class="offert" id="offert1">
+                        <a href="#">
+                            <div class="offert-image">
+                                <img src="./img/jungle.png" alt="jungle">
+                                <div class="name-container">
+                                    <h4>Jungle trip</h4>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae ducimus aperiam inventore obcaecati
+                                quia sit rem ea minus vero?</p>
+                            <p style="font-size: 1.1em">Click to check!</p>
+                        </a>
+                    </div>
+                    <div class="offert" id="offert2">
+                        <a href="#">
+                            <div class="offert-image">
+                                <img src="./img/mountain.png" alt="mountain">
+                                <div class="name-container">
+                                    <h4>Mountain trip</h4>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae ducimus aperiam inventore obcaecati
+                            quia sit rem ea minus vero?</p>
+                            <p style="font-size: 1.1em">Click to check!</p>
+                        </a>
+                    </div>
+                    <div class="offert" id="offert3">
+                        <a href="#">
+                            <div class="offert-image">
+                                <img src="./img/safari.png" alt="safari">
+                                <div class="name-container">
+                                    <h4>Safari trip</h4>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae ducimus aperiam inventore obcaecati
+                                quia sit rem ea minus vero?</p>
+                            <p style="font-size: 1.1em">Click to check!</p>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="info">
+            <div id="info-1" class="dual">
+            </div>
+            <div class="dual">
+                <div class="info-text dual-item">
+                    <h1>Schedule your time!</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id non, repudiandae magni asperiores provident, obcaecati sit veritatis qui aliquid fugit sapiente at, blanditiis ratione maxime porro similique quidem odio explicabo cupiditate ea mollitia et iusto velit? Natus, minus. Voluptates eos cupiditate aspernatur, ad minus quas consequuntur debitis exercitationem odit asperiores, nam dolores libero, saepe ea. Error itaque alias enim sit, obcaecati doloribus iure consequatur, eaque placeat velit dicta delectus praesentium?
+                    </p>
+                </div>
+                <ul class="note-list dual-item">
+                    <li></li>
+                    <li></li>
+                    <li>
+                        <p id="note-text-0"></p>
+                    </li>
+                    <li>
+                        <p id="note-text-1"></p>
+                    </li>
+                    <li>
+                        <p id="note-text-2"></p>
+                    </li>
+                    <li>
+                        <p id="note-text-3"></p>
+                    </li>
+                    <li>
+                        <p id="note-text-4"></p>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-container">
+            <div class="footer-left">
+                <p>We are taking care of you</p>
+                <img src="./img/logo.png" alt="logo" />
+                <h2>Trip Inc.</h2>
+            </div>
+            <div class="footer-right">
+                <div class="footer-column">
+                    <h5>Contact</h5>
+                    <p>contact@gmail.com</p>
+                    <p>xxx xxx xxx</p>
+                    <p>Yellow Town</p>
+                    <p>22-525</p>
+                    <p>Trip Street 25</p>
+                </div>
+                <div class="footer-column">
+                    <h5>Pages</h5>
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Pircing</p>
+                    <p>Contact</p>
+                </div>
+                <div class="footer-column">
+                    <h5>Trips</h5>
+                    <p>Jungle trip</p>
+                    <p>Mountain trip</p>
+                    <p>Safari trip</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
